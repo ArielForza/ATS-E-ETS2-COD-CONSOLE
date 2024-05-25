@@ -12,7 +12,7 @@ Config:
 (Fisica do jogo)
 * g_suspension_stiffness 0.25
 * g_cabin_suspension_stiffness 0.25
-  (Incação manter valores iguais referencia 0 é o mais proximo da fisica real)
+__*<h6>(Incação manter suspenção e cabine com valores iguais referencia 0 é o mais proximo da fisica real)</h6>*__
 * g_truck_stability 0.25
 * g_trailer_stability 0.25
 * g_brake_intensity 0.5
