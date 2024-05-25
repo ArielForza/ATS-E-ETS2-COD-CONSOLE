@@ -7,29 +7,30 @@ Depois pesquise por "g_developer" e edite a linha a seguir:
 g_developer "0" muda para g_developer "1"
 #
 <h5>⚠️CÓDIGOS USADOS⚠️</h5>
-g_suspension_stiffness 0.25
-g_cabin_suspension_stiffness 0.25
-g_truck_stability 0.25
-g_trailer_stability 0.25
-g_brake_intensity 0.5
-g_cam_physics 1.0
-g_cam_physics_value 1.0
-g_cam_window_block 1
-g_simple_parking_doubles 0
-g_suspension_auto_reset 0
-r_fake_shadows 0
-warp 1.0
-g_set_time xx
-g_set_weather x
-g_minicon 0-1
-g_traffic 0-10
-g_cam_window_block 0 / 1
-g_force_economy_reset 0
-g_income_factor 1.0
-g_set_climate albedo
-g_set_climate reference
+
+* g_suspension_stiffness 0.25
+* g_cabin_suspension_stiffness 0.25
+* g_* truck_stability 0.25
+* g_trailer_stability 0.25
+* g_brake_intensity 0.5
+* g_cam_physics 1.0
+* g_cam_physics_value 1.0
+* g_cam_window_block 1
+* g_simple_parking_doubles 0
+* g_suspension_auto_reset 0
+* r_fake_shadows 0
+* warp 1.0
+* g_set_time xx
+* g_set_weather x
+* g_minicon 0-1
+* g_traffic 0-10
+* g_cam_window_block 0 / 1
+* g_force_economy_reset 0
+* g_income_factor 1.0
+* g_set_climate albedo
+* g_set_climate reference
 
 Config:
 (ESPELHOS)
-r_mirror_view _distance "50"
-r_deferred_mirrors "0"
+* r_mirror_view _distance "50"
+* r_deferred_mirrors "0"
