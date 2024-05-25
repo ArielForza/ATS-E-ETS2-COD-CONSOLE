@@ -8,9 +8,12 @@ g_developer "0" muda para g_developer "1"
 #
 <h5>⚠️CÓDIGOS USADOS⚠️</h5>
 
+Config:
+(Fisica do jogo)
 * g_suspension_stiffness 0.25
 * g_cabin_suspension_stiffness 0.25
-* g_* truck_stability 0.25
+  (Incação manter valores iguais referencia 0 é o mais proximo da fisica real)
+* g_truck_stability 0.25
 * g_trailer_stability 0.25
 * g_brake_intensity 0.5
 * g_cam_physics 1.0
