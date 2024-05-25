@@ -30,16 +30,22 @@ __*<h6>(Ajuste de cabines e correçao de bug gerado)</h6>*__
 Config:
 (Aumento de Dificuldade)
 * g_simple_parking_doubles 0
-__*<h6>(Desabilita estacionar de frente)</h6>*__
+__*<h6>(Habilita estacionar de re com bi-trem)</h6>*__
+* g_income_factor 1.0
+* g_force_economy_reset 0
+__*<h6>(Ajuste de economia e resete para original)</h6>*__
+
+Config:
+(Erros Graficos)
 * r_fake_shadows 0
+__*<h6>(Corrige sonbra)</h6>*__
 * warp 1.0
 * g_set_time xx
 * g_set_weather x
 * g_minicon 0-1
 * g_traffic 0-10
 * g_cam_window_block 0 / 1
-* g_force_economy_reset 0
-* g_income_factor 1.0
+
 * g_set_climate albedo
 * g_set_climate reference
 
