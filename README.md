@@ -26,6 +26,9 @@ Config:
 * g_cam_physics_value 1.0
 * g_cam_window_block 1
 __*<h6>(Ajuste de cabines e correçao de bug gerado)</h6>*__
+* r_mirror_view _distance "50"
+* r_deferred_mirrors "0"
+__*<h6>(Visão dos espelhos retrovisores)</h6>*__
 
 Config:
 (Aumento de Dificuldade)
@@ -39,17 +42,26 @@ Config:
 (Erros Graficos)
 * r_fake_shadows 0
 __*<h6>(Corrige sonbra)</h6>*__
+* g_set_skybox 1
+__*<h6>(nuvens do ceu vai de 1 a 8)</h6>*__
+* g_set_weather 0
+* g_set_weather 1
+__*<h6>(Abilita sol e chuva)</h6>*__
 * warp 1.0
+__*<h6>(Ajuste de telemetria 0 é o mais proximo do real)</h6>*__
 * g_set_time xx
-* g_set_weather x
+__*<h6>(Ajusta hora)</h6>*__
 * g_minicon 0-1
-* g_traffic 0-10
-* g_cam_window_block 0 / 1
-
+__*<h6>(Ver ultimos cod usador e janela de monitoramentos graficos.)</h6>*__
+* g_traffic 0
+__*<h6>(Trafico de npc de 0.0 a 10.0)</h6>*__
 * g_set_climate albedo
 * g_set_climate reference
+__*<h6>(habilita e desabilita efeitos graficos)</h6>*__
 
 Config:
-(ESPELHOS)
-* r_mirror_view _distance "50"
-* r_deferred_mirrors "0"
+(Uso da camera 0)
+* goto cidade
+__*<h6>(Teleporte do caminão com F9 ou CTRL + F9)</h6>*__
+
+
