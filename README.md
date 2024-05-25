@@ -17,12 +17,20 @@ Config:
 __*<h6>(Incação manter suspenção e cabine e estabilidade com valores iguais referencia 0 é o mais proximo da fisica real)</h6>*__
 * g_brake_intensity 0.5
 __*<h6>(Força de frenagem)</h6>*__
+* g_suspension_auto_reset 0
+__*<h6>(Trava suspensão no ajustado)</h6>*__
+
+Config:
+(Fisica da cabine do jogo)
 * g_cam_physics 1.0
 * g_cam_physics_value 1.0
 * g_cam_window_block 1
 __*<h6>(Ajuste de cabines e correçao de bug gerado)</h6>*__
+
+Config:
+(Aumento de Dificuldade)
 * g_simple_parking_doubles 0
-* g_suspension_auto_reset 0
+__*<h6>(Desabilita estacionar de frente)</h6>*__
 * r_fake_shadows 0
 * warp 1.0
 * g_set_time xx
